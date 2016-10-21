@@ -1,24 +1,37 @@
 
-function calculateWeeklySales (sun, mon, tue, wed, thr, fri, sat) {
-        console.log(sun + mon + tue + wed + thr + fri + sat);
+function calculateWeeklySales (salesweek) {
+        console.log(salesweek.sunday 
+        + salesweek.monday 
+        + salesweek.tuesday 
+        + salesweek.wednesday 
+        + salesweek.thursday 
+        + salesweek.friday 
+        + salesweek.saturday);
 }
  
 // declare variables for each week
-var sunday = 30;
-var monday = 17;
-var tuesday = 2;
-var wednesday = 5;
-var thursday = 10;
-var friday = 4;
-var saturday = 1000;
-console.log(sunday + monday + tuesday + wednesday + thursday + friday + saturday);
 
- console.log(totalSales);
+
+ var salesweek = {
+    sunday: 30,
+    monday: 17,
+    tuesday: 2,
+    wednesday: 5,
+    thursday: 10,
+    friday: 4,
+    saturday: 1000
+};
+
+
+
  
  // call function to calculate weekly sales
- calculateWeeklySales(sunday, monday, tuesday, wednesday, thursday, friday, saturday);
-    
+ calculateWeeklySales(salesweek);
+
 
 
 
 var A = 1;
+
+
+
